@@ -10,19 +10,54 @@ Here’s a multiple screenshots of the Home Page:
 
 ![Home Page Screenshot](images/Screenshot1.png)
 second screenshot
+^
+^
+^
+^
+^
+^
+
 ![Home Page Screenshot](images/Screenshot2.png)
 third screenshot 
+^
+^
+^
+^
+^
+^
+^
 
 ![Home Page Screenshot](images/Screenshot3.png)
 fourth screenshot
+^
+^
+^
+^
+^
+^
+^
 
 ![Home Page Screenshot](images/Screenshot4.png)
 fifth screenshot
+^
+^
+^
+^
+^
+^
+^
 
 ![Home Page Screenshot](images/Screenshot5.png)
 
 note: there are 5 pages in this project with are 
 Home /AboutUs / Courses / Contact 
+^
+^
+^
+^
+^
+^
+^
 ![Home Page Screenshot](images/Screenshot6.png)
 
 
