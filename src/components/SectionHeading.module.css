@@ -1,0 +1,39 @@
+
+
+.subtitleRow {
+  display: inline-flex;         
+  align-items: center;
+  gap: 12px;
+  margin: 0;padding: 0;
+  margin-left: 62px;
+}
+
+.subtitleText {
+  color: #28c291;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.subtitleLine {
+  display: inline-block;
+  width: 130px;                   
+  height: 1px;
+  background: #28c291;
+  border-radius: 1px;
+}
+
+.sectionHeading h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #1a2d62;
+  margin-top: 5px;
+    margin-left: 60px;
+
+}
+
+.sectionHeading h2 span {
+  color: #28c291;
+  text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+
+.hero {
+  background-image: url("../assets/HeroImg.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+.heroContent h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #1d2b53;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.mainContent {
+  display: inline-flex;
+  list-style: none;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mainContent li {
+  color: #1d2b53;
+}
+
+.mainContent li a {
+  color: #28a745;
+  text-decoration: none;
+}

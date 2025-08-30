@@ -1,0 +1,119 @@
+.navbar {
+  position: fixed; 
+  top: 0;          
+  left: 0;         
+  width: 100%;     
+  z-index: 1000;   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 40px;
+  
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.navLinks li a {
+  text-decoration: none;
+  color: #1A2D62;
+  
+  font-weight: 550;
+  font-family: 'Mulish', sans-serif;
+}
+.blog{
+   text-decoration: none;
+  color: #1A2D62;
+  font-weight: 550;
+  font-family: 'Mulish', sans-serif;
+  cursor: pointer;
+}
+.blog:hover{
+    color: #00c896;
+}
+.navLinks li a:hover {
+  color: #00c896;
+}
+.navIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 27px;
+  color: #0a2d57;
+  cursor: pointer;
+}
+.authButtons {
+  display: flex;
+  gap: 20px;
+  padding: 0 50px
+}
+.Contact {
+  background-color: #00c896;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Contact:hover{
+    background-color: #0a2d57;
+}
+.Account {
+  background-color: transparent;
+  color: #0a2d57;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 15px 25px;
+  margin-right: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Account:hover{
+  background-color: #00c896;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #1A2D62;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 70px;
+    right: -100%;
+    background: white;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navLinks.active {
+    right: 0;
+  }
+}

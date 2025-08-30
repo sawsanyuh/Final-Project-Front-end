@@ -1,0 +1,83 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #28a745;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 150%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.parag {
+  color: #1d2b53;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.parag:hover{
+  color:#28a745
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.row i {
+  color: #28a745;
+  font-size: 18px;
+ 
+  
+}
+
+.lessons, .hours, .stars, .level {
+  color: #333;
+  font-size: 15px;
+  line-height: 1.5;
+
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+}

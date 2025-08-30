@@ -1,0 +1,67 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 550px; 
+  padding: 20px; 
+  margin: 10px;
+  margin-left: 60px; 
+}
+.topRow {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.imageWrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+.img {
+  width: 300px; 
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+.price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #0f9d58;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.titleBtnWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn {
+  background: none;
+  color: #0a2d57;
+  border: none;
+  font-size: 14px;
+  padding: 10px 0 0 0;
+  text-align: left;
+}
+ .meta {
+  padding: 10px 0 0 0;
+}
+.parag {
+  font-size: 22px; 
+  font-weight: bold;
+  margin: 0;
+  color: #0a2d57;
+}
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  color: #0f9d58;
+}
+
+

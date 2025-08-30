@@ -1,0 +1,45 @@
+.sectionTwoContainer{
+    display:flex;
+    justify-content: space-around;
+    padding: 15px;margin: 15px;
+    align-items: flex-start; 
+}
+.sectionTwoContainer img{
+    width:40%
+}
+.separateSection{
+    flex: 1; 
+    text-align: center; 
+    padding: 2px; 
+    padding-top: 45px;
+}
+.heading{
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 54px;
+    font-size: 44px;
+    color: #1d2b53;
+    
+}
+.heading span{
+       color: #00c896;
+       text-decoration: underline; 
+}
+.paragraph{
+    text-align: start;
+    margin: 50px;
+    color:#888888;
+    font-size:20px;
+}
+.btn {
+  background-color: #00c896;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+    background-color: #0a2d57;}

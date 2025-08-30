@@ -1,0 +1,48 @@
+.section {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #2ecc71;
+  background-color: rgba(46, 202, 127, 0.1);
+  height: 50px;
+  width:700px; margin-left: 25%;margin-bottom: 40px;
+  border-radius: 45px;text-align: center;
+}
+
+.logoWindow {
+  width: 100%;
+  overflow: hidden; /* shows only 5 logos at a time */
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  transition: all 0.5s ease;
+}
+
+.logo {
+  flex: 0 0 calc(20% - 16px); /* 5 logos visible */
+  max-width: calc(20% - 16px);
+  height: 80px;
+  object-fit: contain;
+  filter: grayscale(70%);
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  filter: none;
+}
