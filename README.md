@@ -8,14 +8,14 @@ The **Home Page** is the first thing users see when they visit the website. It f
 
 Here’s a multiple screenshots of the Home Page:  
 
-![Home Page Screenshot](images/screenshot1.png)
-![Home Page Screenshot](images/screenshot2.png)
+![Home Page Screenshot](images/Screenshot1.png)
+![Home Page Screenshot](images/Screenshot2.png)
 
-![Home Page Screenshot](images/screenshot3.png)
+![Home Page Screenshot](images/Screenshot3.png)
 
-![Home Page Screenshot](images/screenshot4.png)
+![Home Page Screenshot](images/Screenshot4.png)
 
-![Home Page Screenshot](images/screenshot5.png)
-![Home Page Screenshot](images/screenshot6.png)
+![Home Page Screenshot](images/Screenshot5.png)
+![Home Page Screenshot](images/Screenshot6.png)
 
 
